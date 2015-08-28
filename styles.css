@@ -57,6 +57,7 @@ li {
 	margin-top: 3%;
 	margin-bottom: 3%;
 	margin-left: 10%;
+	box-sizing: border-box
 }
 
 .navbar {
@@ -94,6 +95,10 @@ li {
 	flex-direction: row;
 	align-items: center;
 	box-sizing: border-box;
+}
+
+.middle2 {
+	display: none;
 }
 
 .row1 {
@@ -187,6 +192,35 @@ li {
 	text-decoration: underline;
 }
 
+.about {
+	box-sizing: border-box;
+	margin: 5%;
+}
+
+#abouth3 {
+	text-align: center;
+}
+
+#aboutp {
+	text-align: justify;
+	
+}
+
+#review {
+	box-sizing: border-box;
+	margin: 5%;
+}
+
+#reviewh3 {
+	text-align: center;
+}
+
+#reviewp {
+	text-align: justify;
+	line-height: 1.5px;
+	box-sizing: border-box;
+}
+
 
 
 
@@ -212,6 +246,7 @@ li {
 		
 	}
 	
+	
 	#navbar1 {
 		display: none;
 	}
@@ -221,8 +256,13 @@ li {
 	}
 
 	.middle {
-		flex-wrap: wrap;
+		display: none;
 
 	}	
+	
+	.middle2 {
+		display: inline;
+		margin-left: 20%;
+	}
 
 
